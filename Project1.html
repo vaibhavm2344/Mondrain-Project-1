@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+
+    body{
+      padding: 0;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    .Container{
+      display: grid;
+      width: 748px;
+      grid-template-columns: 320px 198px 153px 50px;
+      grid-template-rows: 414px 130px 155px 20px;
+      gap: 9px;
+      background-color: black;
+    }
+    .Red{
+      display: grid;
+      background-color: #E72F24;
+      }
+    .Blank1{
+      display: grid;
+      background-color: #f0f1ec;
+      grid-column: span 3;
+    }
+    .Blank2{
+      display: grid;
+      background-color: #f0f1ec;
+      grid-row: span 2;
+    }
+    .Blank3{
+      display: grid;
+      background-color: #f0f1ec;
+      grid-row: span 2;
+      grid-column: span 2;
+    }
+    .Blue{
+      display: grid;
+      background-color: #004592;
+      border-bottom: 10px solid black;
+    }
+    .Blank4{
+      display: grid;
+      background-color: #f0f1ec;
+      grid-row: span 2;
+    }
+    .Blank5{
+      display: grid;
+      background-color: #f0f1ec;
+    }
+    .Yellow{
+      display: grid;
+      background-color: #F9D01E;
+    }
+    .Black{
+      display: grid;
+      background-color: #232629;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="Container">
+  <div class="Red"></div>
+  <div class="Blank1"></div>
+  <div class="Blank2"></div>
+  <div class="Blank3"></div>
+  <div class="Blue"></div>
+  <div class="Blank4"></div>
+  <div class="Blank5"></div>
+  <div class="Yellow"></div>
+  <div class="Black"></div>
+</div>
+</body>
+
+</html>
